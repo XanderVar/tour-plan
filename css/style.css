@@ -477,7 +477,7 @@ template {
     width: 340px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container {
     max-width: 576px;
     width: 92%;
@@ -513,8 +513,12 @@ template {
   .logo {
     width: 99px;
   }
+
+  .container {
+    width: 87.5%;
+  }
 }
-@media (max-width: 576px) {
+@media (max-width: 320px) {
   .container {
     width: 87.5%;
   }
