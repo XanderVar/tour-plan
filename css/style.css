@@ -575,7 +575,7 @@ template {
 }
 @media (max-width: 768px) {
   .container {
-    max-width: 670px;
+    max-width: 700px;
     width: 92%;
   }
 }
@@ -630,6 +630,7 @@ template {
   }
   .hotel-info__stars {
     flex-basis: auto;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 320px) {
