@@ -622,6 +622,10 @@ template {
   .search__input {
     width: 340px;
   }
+
+  .slider {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -691,5 +695,15 @@ template {
   .container {
     max-width: 280px;
     width: 87.5%;
+  }
+
+  .swiper {
+    height: 179px;
+  }
+  .swiper-slide__photo {
+    width: 100%;
+    min-height: 179px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=style.css.map */
