@@ -499,6 +499,15 @@ template {
   font-size: 12px;
   line-height: 15px;
 }
+.hotel-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.hotel-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .stars {
   flex-basis: 100%;
@@ -587,6 +596,99 @@ template {
 .slider-button--prev {
   left: 16px;
   background-image: url(../img/arrow-prev.svg);
+}
+
+.booking {
+  width: 350px;
+  min-height: 210px;
+  background-color: #0A223D;
+  color: #ffffff;
+  font-family: Nunito, sans-serif;
+  border-radius: 8px;
+  padding: 29px 29px 26px 26px;
+}
+.booking__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+.booking__price {
+  display: flex;
+  flex-direction: column;
+}
+.booking__start {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+}
+.booking__pricetag {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: -1px;
+}
+.booking__per-room {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.booking__room {
+  margin-top: 4px;
+}
+.booking__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.booking__description {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 9px;
+}
+.booking__call-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.booking__heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.booking__number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+}
+.booking__num {
+  margin-left: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.booking__button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  background-color: #EC1F46;
+  border-radius: 4px;
+  min-height: 45px;
+  cursor: pointer;
+}
+
+.map {
+  width: 347px;
+  height: 213px;
+  border-radius: 10px;
 }
 
 @media (max-width: 1200px) {
