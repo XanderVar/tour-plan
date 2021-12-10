@@ -784,7 +784,7 @@ template {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 731px;
+  max-width: 731px;
   margin: 45px auto 0px;
   background-color: #fff;
   border-radius: 8px;
@@ -862,6 +862,7 @@ template {
   font-size: 12px;
   line-height: 15px;
   margin-bottom: 4px;
+  color: #000000;
 }
 .reviews-slider__raiting {
   display: flex;
@@ -869,7 +870,6 @@ template {
   line-height: 0;
 }
 .reviews-slider__text {
-  max-width: 537px;
   margin: auto;
   font-style: normal;
   font-weight: normal;
@@ -946,6 +946,10 @@ template {
   .newsletter {
     padding: 92px 0 93px 0;
   }
+
+  .reviews-slider__item {
+    max-width: 579px;
+  }
 }
 @media (max-width: 768px) {
   .container,
@@ -956,6 +960,28 @@ template {
 
   .booking, .map {
     flex-basis: 49%;
+  }
+
+  .reviews {
+    padding: 40px 0 60px;
+  }
+  .reviews__tittle {
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .reviews-slider__text {
+    max-width: 455px;
+  }
+  .reviews-slider__date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
   }
 }
 @media (max-width: 650px) {
@@ -1063,6 +1089,28 @@ template {
     padding-left: 20px;
     padding-right: 75px;
   }
+
+  .reviews {
+    padding: 40px 0 50px 0px;
+  }
+  .reviews-slider__item {
+    padding: 0 29px 36px 33px;
+  }
+  .reviews-slider__item:before, .reviews-slider__item:after {
+    display: none;
+  }
+  .reviews-slider__button {
+    top: 45px;
+    transform: translate(0, -50%);
+  }
+  .reviews-slider__button--prev {
+    left: 50%;
+    margin-left: -120px;
+  }
+  .reviews-slider__button--next {
+    right: 50%;
+    margin-right: -120px;
+  }
 }
 @media (max-width: 576px) {
   .hotel-slider {
@@ -1095,5 +1143,25 @@ template {
 
   .map {
     height: 173px;
+  }
+
+  .reviews__tittle {
+    max-width: 245px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px auto 42px;
+  }
+  .reviews-slider__text {
+    text-align: left;
+  }
+  .reviews-slider__button--prev {
+    margin-left: -90px;
+  }
+  .reviews-slider__button--next {
+    margin-right: -90px;
   }
 }/*# sourceMappingURL=style.css.map */
