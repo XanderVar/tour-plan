@@ -757,6 +757,8 @@ template {
   top: 0;
   right: 0;
   min-width: 65px;
+  max-width: 30%;
+  overflow: hidden;
   height: 100%;
   border: none;
   background-color: #EC1F46;
