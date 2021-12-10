@@ -1,8 +1,9 @@
 @media (max-width: 1200px)
   .container
     max-width: 960px
-  .slider
-    width: 590px
+  .hotel
+    &-slider
+      width: 590px
 @media (max-width: 992px)
   .container,
   .newsletter-wrapper
@@ -24,10 +25,10 @@
   .search
     &__input
       width: 340px
-  .slider
-    width: 100%
   .hotel
     padding-bottom: 60px
+    &-slider
+      width: 100%
     &-grid
       flex-direction: column
     &-card
@@ -75,11 +76,11 @@
         width: 16px
         height: 1px
         background-color: $text-color
-  .slider
-    height: 450px
   .hotel
     padding-top: 5px
     padding-bottom: 40px
+    &-slider
+      height: 450px
     &-card
       flex-direction: column
       &__booking
@@ -129,10 +130,17 @@
       padding-left: 20px
       padding-right: 75px
 @media (max-width: 576px)
-  .slider
-    height: 250px
+  .hotel
+    &-slider
+      height: 250px
 @media (max-width: 320px)
   .hotel
+    &-slider
+      height: 179px
+      &__photo
+        width: 100%
+        min-height: 179px
+        object-fit: cover
     &__slider
       margin-bottom: 20px
   .logo
@@ -141,12 +149,5 @@
   .newsletter-wrapper
     max-width: 280px
     width: 87.5%
-  .slider
-    height: 179px
-    &-slide
-      &__photo
-        width: 100%
-        min-height: 179px
-        object-fit: cover
   .map
     height: 173px
