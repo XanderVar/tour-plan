@@ -41,6 +41,7 @@
     min-height: 210px
   .map
     width: 340px
+    height: 210px
   .newsletter
     padding: 92px 0 93px 0
   .reviews
@@ -52,8 +53,11 @@
   .newsletter-wrapper
     max-width: 700px
     width: 92%
-  .booking, .map
+  .map
     flex-basis: 49%
+  .booking
+    flex-basis: 49%
+    padding: 29px 22px 26px 23px
   .reviews
     padding: 40px 0 60px
     &__tittle
@@ -72,6 +76,12 @@
         font-weight: normal
         font-size: 10px
         line-height: 13px
+      &__button
+        top: 157px
+        &--prev
+          left: 0
+        &--next
+          right: 0
 @media (max-width: 650px)
   .container
     max-width: 576px
@@ -105,6 +115,7 @@
       height: 450px
     &-card
       flex-direction: column
+      justify-content: space-between
       &__booking
         margin-bottom: 20px
     &__slider
@@ -125,8 +136,11 @@
         margin-bottom: 10px
   .booking
     width: 100%
+    max-height: 210px
+    padding: 29px 21px 26px 22px
   .map
     width: 100%
+    height: 210px
   .newsletter
     padding: 76px 0 83px 0
     &-tittle
@@ -170,18 +184,17 @@
           margin-right: -120px
 @media (max-width: 576px)
   .hotel
-    &-slider
-      height: 250px
-@media (max-width: 320px)
-  .hotel
+    &-grid
+      padding-top: 18px
     &-slider
       height: 179px
+      &__item
+        // margin-top: 18px
+        margin-bottom: 20px
       &__photo
         width: 100%
         min-height: 179px
         object-fit: cover
-    &__slider
-      margin-bottom: 20px
   .logo
     width: 99px
   .container,
@@ -205,6 +218,6 @@
         text-align: left
       &__button
         &--prev
-          margin-left: -90px
+          margin-left: -105px
         &--next
-          margin-right: -90px
+          margin-right: -105px

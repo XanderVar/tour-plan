@@ -40,4 +40,5 @@ const reviewsSlider = new Swiper('.reviews-slider', {
 //             zoom: 7
 //         });
 //     }
-$('.newsletter').parallax({imageSrc: '../img/newsletter-bg.jpeg', iosFix: false, androidFix: false});
+
+$('.newsletter').parallax({imageSrc: './img/newsletter-bg.jpeg', androinFix: disable, iosFix: disable});
