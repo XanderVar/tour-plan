@@ -41,4 +41,4 @@ const reviewsSlider = new Swiper('.reviews-slider', {
 //         });
 //     }
 
-$('.newsletter').parallax({imageSrc: './img/newsletter-bg.jpeg', androinFix: disable, iosFix: disable});
+$('.newsletter').parallax({imageSrc: './img/newsletter-bg.jpeg', androinFix: false, iosFix: false});

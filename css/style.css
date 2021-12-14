@@ -897,8 +897,8 @@ template {
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 255px;
+  height: 255px;
   padding: 0 26px 24px;
   border-radius: 6px;
   overflow: hidden;
@@ -960,6 +960,7 @@ template {
   .card {
     width: 230px;
     height: 230px;
+    padding: 0 13px 24px;
   }
 }
 @media (max-width: 992px) {
