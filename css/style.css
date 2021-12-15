@@ -693,6 +693,500 @@ template {
   overflow: hidden;
 }
 
+.otherPackages {
+  padding: 40px 0 70px;
+}
+.otherPackages__tittle {
+  margin: 0 auto 70px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.otherPackages-grid {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+}
+
+.grid-hotelBlueHaven {
+  position: relative;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-template: 1fr/repeat(2, 1fr);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.grid-hotelBlueHaven__photo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.grid-hotelBlueHaven__offer {
+  position: absolute;
+  top: 26px;
+  padding: 8px 12px 7px 11px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  background-color: #EC1F46;
+  border-radius: 0px 4px 4px 0px;
+}
+.grid-hotelBlueHaven__card {
+  padding: 46px 21px 30px 43px;
+  background-color: #0A223D;
+}
+.grid-hotelBlueHaven__stars {
+  margin-bottom: 5px;
+}
+.grid-hotelBlueHaven__tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 27px;
+}
+.grid-hotelBlueHaven__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160.6%;
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+.grid-hotelBlueHaven__description {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 26px;
+}
+.grid-hotelBlueHaven__adress, .grid-hotelBlueHaven__guests, .grid-hotelBlueHaven__room {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-left: 14px;
+}
+.grid-hotelBlueHaven__adress-wrapper, .grid-hotelBlueHaven__guests-wrapper, .grid-hotelBlueHaven__room-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 11px;
+}
+.grid-hotelBlueHaven__price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.grid-hotelBlueHaven__discont {
+  flex-basis: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+.grid-hotelBlueHaven__price-tag {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+.grid-hotelBlueHaven__button {
+  padding: 11px 27px 10px 26px;
+  background-color: #EC1F46;
+  border: none;
+  border-radius: 4px;
+  color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+}
+.grid-belleMare {
+  position: relative;
+  display: grid;
+  grid-template: repeat(2, 1fr)/1fr;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.grid-belleMare__offer {
+  position: absolute;
+  top: 30px;
+  padding: 4px 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  color: #ffffff;
+  background-color: #EC1F46;
+  border-radius: 0px 4px 4px 0px;
+}
+.grid-belleMare__photo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.grid-belleMare__card {
+  padding: 30px 21px 25px 32px;
+  background-color: #0A223D;
+}
+.grid-belleMare__tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+.grid-belleMare__description {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+.grid-belleMare__adress, .grid-belleMare__guests, .grid-belleMare__room {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-left: 14px;
+}
+.grid-belleMare__adress-wrapper, .grid-belleMare__guests-wrapper, .grid-belleMare__room-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 11px;
+}
+.grid-belleMare__price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.grid-belleMare__discont {
+  flex-basis: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+.grid-belleMare__price-tag {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+.grid-belleMare__button {
+  padding: 11px 27px 10px 26px;
+  background-color: #EC1F46;
+  border: none;
+  border-radius: 4px;
+  color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+}
+.grid-whitePalace {
+  position: relative;
+  display: grid;
+  grid-template: repeat(2, 1fr)/1fr;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.grid-whitePalace__offer {
+  position: absolute;
+  top: 30px;
+  padding: 4px 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  color: #ffffff;
+  background-color: #EC1F46;
+  border-radius: 0px 4px 4px 0px;
+}
+.grid-whitePalace__photo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.grid-whitePalace__card {
+  padding: 30px 21px 25px 32px;
+  background-color: #0A223D;
+}
+.grid-whitePalace__tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+.grid-whitePalace__description {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+.grid-whitePalace__adress, .grid-whitePalace__guests, .grid-whitePalace__room {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-left: 14px;
+}
+.grid-whitePalace__adress-wrapper, .grid-whitePalace__guests-wrapper, .grid-whitePalace__room-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 11px;
+}
+.grid-whitePalace__price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.grid-whitePalace__discont {
+  flex-basis: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+.grid-whitePalace__price-tag {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+.grid-whitePalace__button {
+  padding: 11px 27px 10px 26px;
+  background-color: #EC1F46;
+  border: none;
+  border-radius: 4px;
+  color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+}
+.grid-luxuryPlace {
+  position: relative;
+  display: grid;
+  grid-template: repeat(2, 1fr)/1fr;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.grid-luxuryPlace__offer {
+  position: absolute;
+  top: 30px;
+  padding: 4px 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  color: #ffffff;
+  background-color: #EC1F46;
+  border-radius: 0px 4px 4px 0px;
+}
+.grid-luxuryPlace__photo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.grid-luxuryPlace__card {
+  padding: 30px 21px 25px 32px;
+  background-color: #0A223D;
+}
+.grid-luxuryPlace__tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+.grid-luxuryPlace__description {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+.grid-luxuryPlace__adress, .grid-luxuryPlace__guests, .grid-luxuryPlace__room {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-left: 14px;
+}
+.grid-luxuryPlace__adress-wrapper, .grid-luxuryPlace__guests-wrapper, .grid-luxuryPlace__room-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 11px;
+}
+.grid-luxuryPlace__price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.grid-luxuryPlace__discont {
+  flex-basis: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+.grid-luxuryPlace__price-tag {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+.grid-luxuryPlace__button {
+  padding: 11px 27px 10px 26px;
+  background-color: #EC1F46;
+  border: none;
+  border-radius: 4px;
+  color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+}
+.grid-hotelFiveStar {
+  position: relative;
+  display: grid;
+  grid-template: repeat(2, 1fr)/1fr;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.grid-hotelFiveStar__offer {
+  position: absolute;
+  top: 30px;
+  padding: 4px 9px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  color: #ffffff;
+  background-color: #EC1F46;
+  border-radius: 0px 4px 4px 0px;
+}
+.grid-hotelFiveStar__photo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.grid-hotelFiveStar__card {
+  padding: 30px 21px 25px 32px;
+  background-color: #0A223D;
+}
+.grid-hotelFiveStar__tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+.grid-hotelFiveStar__description {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+.grid-hotelFiveStar__adress, .grid-hotelFiveStar__guests, .grid-hotelFiveStar__room {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin-left: 14px;
+}
+.grid-hotelFiveStar__adress-wrapper, .grid-hotelFiveStar__guests-wrapper, .grid-hotelFiveStar__room-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 11px;
+}
+.grid-hotelFiveStar__price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.grid-hotelFiveStar__discont {
+  flex-basis: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+.grid-hotelFiveStar__price-tag {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+.grid-hotelFiveStar__button {
+  padding: 11px 27px 10px 26px;
+  background-color: #EC1F46;
+  border: none;
+  border-radius: 4px;
+  color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
 .newsletter {
   position: relative;
   padding: 98px 0 87px 0;
@@ -1044,6 +1538,16 @@ template {
   .card {
     width: 339px;
     height: 255px;
+    padding: 0 26px 24px;
+  }
+
+  .otherPackages__tittle {
+    margin-bottom: 50px;
+  }
+  .otherPackages-grid {
+    grid-template: repeat(3, 1fr)/repeat(2, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -1237,6 +1741,11 @@ template {
     width: 48%;
     height: 255px;
   }
+
+  .grid-hotelBlueHaven__card, .grid-belleMare__card, .grid-whitePalace__card, .grid-luxuryPlace__card, .grid-hotelFiveStar__card {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 @media (max-width: 576px) {
   .hotel-grid {
@@ -1303,5 +1812,113 @@ template {
   .card {
     width: 100%;
     height: 255px;
+  }
+
+  .otherPackages__tittle {
+    margin-bottom: 50px;
+    font-size: 26px;
+  }
+  .otherPackages-grid {
+    grid-template: repeat(5, 500px)/1fr;
+  }
+
+  .grid-hotelBlueHaven {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-template: repeat(2, 250px)/1fr;
+  }
+  .grid-hotelBlueHaven__stars {
+    display: none;
+  }
+  .grid-hotelBlueHaven__text {
+    display: none;
+  }
+  .grid-hotelBlueHaven__offer {
+    position: absolute;
+    top: 30px;
+    padding: 4px 9px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    color: #ffffff;
+    background-color: #EC1F46;
+    border-radius: 0px 4px 4px 0px;
+  }
+  .grid-hotelBlueHaven__photo {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .grid-hotelBlueHaven__card {
+    padding: 30px 21px 25px 32px;
+    background-color: #0A223D;
+  }
+  .grid-hotelBlueHaven__tittle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 23px;
+  }
+  .grid-hotelBlueHaven__description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+  }
+  .grid-hotelBlueHaven__adress, .grid-hotelBlueHaven__guests, .grid-hotelBlueHaven__room {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    margin-left: 14px;
+  }
+  .grid-hotelBlueHaven__adress-wrapper, .grid-hotelBlueHaven__guests-wrapper, .grid-hotelBlueHaven__room-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 11px;
+  }
+  .grid-hotelBlueHaven__price {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+  }
+  .grid-hotelBlueHaven__discont {
+    flex-basis: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+  }
+  .grid-hotelBlueHaven__price-tag {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .grid-hotelBlueHaven__button {
+    padding: 11px 27px 10px 26px;
+    background-color: #EC1F46;
+    border: none;
+    border-radius: 4px;
+    color: inherit;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+  }
+  .grid-belleMare, .grid-whitePalace, .grid-luxuryPlace, .grid-hotelFiveStar {
+    grid-template: repeat(2, 250px)/1fr;
   }
 }/*# sourceMappingURL=style.css.map */
