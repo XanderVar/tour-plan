@@ -8,6 +8,11 @@
     width: 230px
     height: 230px
     padding: 0 13px 24px
+  .footer
+    &-wrapper
+      grid-template-columns: repeat(4, minmax(min-content, 1fr))
+    &__input
+      flex-basis: 100%
 @media (max-width: 992px)
   .container,
   .newsletter-wrapper
@@ -71,6 +76,46 @@
       grid-template: repeat(3, 1fr) / repeat(2, 1fr)
       grid-row-gap: 20px
       grid-column-gap: 20px
+  .footer
+    padding: 73px 0 33px 0
+    &-wrapper
+      grid-template-columns: 10% 10% 15% 15% 12% 12%
+      grid-auto-rows: min-content
+      grid-gap: 38px
+      margin-bottom: 56px
+    &__logo
+      width: 104px
+      grid-row: 1/2
+      grid-column: 1/3
+      margin: 0
+    &__social
+      &-network
+        grid-row: 1/2
+        grid-column: 3/7
+        align-self: center
+    &__categories
+      grid-row: 2/3
+      grid-column: 1/3
+    &__additional
+      grid-column: span 2
+    &__legal
+      padding: 0
+      grid-column: span 2
+    &__tittle
+      &--contact
+        margin-top: 0
+    &__item
+      &--mb-2
+        margin-bottom: 0
+    &__contact
+      &-details
+        grid-column: span 6
+        grid-row: 4/5
+        margin: -16px 0 -16px 0
+      &-form
+        grid-column: span 6
+        grid-row: 6/7
+        max-width: 539px
 @media (max-width: 768px)
   .container,
   .newsletter-wrapper
@@ -110,6 +155,9 @@
   .card
     width: 48.5%
     height: 255px
+  .footer
+    &__input
+      flex-basis: 47%
 @media (max-width: 650px)
   .container
     max-width: 576px
@@ -367,3 +415,62 @@
     &-luxuryPlace,
     &-hotelFiveStar
       grid-template: repeat(2, 250px) / 1fr
+  .footer
+    padding: 69px 0 21px 0
+    &-wrapper
+      grid-template-columns: minmax(min-content, 1fr)
+      grid-column-gap: 0
+      grid-row-gap: 30px
+      margin-bottom: 30px
+    &__logo
+      grid-column: 1/2
+    &__social
+      &-network
+        grid-column: 1/2
+        grid-row: 2/3
+        justify-content: flex-start
+        flex-wrap: wrap
+    &__tittle
+      &--inline
+        margin: 0 0 20px 0
+        flex-basis: 100%
+      &--send
+        margin-bottom: 15px
+    &__additional
+      grid-column: 1/2
+      grid-row: 4/5
+    &__categories
+      grid-row: 5/6
+    &__legal
+      grid-column: 1/2
+      grid-row: 3/4
+    &__contact
+      &-details
+        grid-column: 1/2
+        grid-row: 6/7
+        margin-top: 10px
+        margin-bottom: -22px
+      &-form
+        grid-column: 1/2
+        grid-row: 8/9
+    &__text
+      margin-bottom: 20px
+    &__item
+      &--mb-2
+        margin-bottom: 28px
+    &__input
+      flex-basis: 100%
+    &__infoBlock
+      flex-wrap: wrap
+      justify-content: flex-start
+    &__ul
+      &--infoBlock
+        flex-basis: 100%
+        margin: 0 0 10px 0
+    &__message
+      margin-bottom: 15p
+    &__button
+      order: 1
+    &__info
+      flex-basis: 100%
+      margin-bottom: 15px
