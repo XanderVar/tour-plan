@@ -81,7 +81,7 @@
     &-wrapper
       grid-template-columns: 10% 10% 15% 15% 12% 12%
       grid-auto-rows: min-content
-      grid-gap: 38px
+      grid-gap: 5%
       margin-bottom: 56px
     &__logo
       width: 104px
@@ -106,7 +106,7 @@
         margin-top: 0
     &__item
       &--mb-2
-        margin-bottom: 0
+        margin-bottom: 20px
     &__contact
       &-details
         grid-column: span 6
@@ -158,6 +158,9 @@
   .footer
     &__input
       flex-basis: 47%
+    &__social
+      &-network
+        margin-left: -10px
 @media (max-width: 650px)
   .container
     max-width: 576px
@@ -430,6 +433,8 @@
         grid-row: 2/3
         justify-content: flex-start
         flex-wrap: wrap
+        margin-left: 0
+        margin-top: 12px
     &__tittle
       &--inline
         margin: 0 0 20px 0
@@ -453,11 +458,14 @@
       &-form
         grid-column: 1/2
         grid-row: 8/9
+    &__icon
+      &-wrapper
+        margin-right: 7px
     &__text
       margin-bottom: 20px
     &__item
       &--mb-2
-        margin-bottom: 28px
+        margin-bottom: 30px
     &__input
       flex-basis: 100%
     &__infoBlock
@@ -468,7 +476,7 @@
         flex-basis: 100%
         margin: 0 0 10px 0
     &__message
-      margin-bottom: 15p
+      margin-bottom: 15px
     &__button
       order: 1
     &__info

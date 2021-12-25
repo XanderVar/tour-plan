@@ -1743,7 +1743,7 @@ template {
     grid-template-columns: 10% 10% 15% 15% 12% 12%;
     grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content;
-    grid-gap: 38px;
+    grid-gap: 5%;
     margin-bottom: 56px;
   }
   .footer__logo {
@@ -1772,7 +1772,7 @@ template {
     margin-top: 0;
   }
   .footer__item--mb-2 {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   .footer__contact-details {
     grid-column: span 6;
@@ -1842,6 +1842,9 @@ template {
 
   .footer__input {
     flex-basis: 47%;
+  }
+  .footer__social-network {
+    margin-left: -10px;
   }
 }
 @media (max-width: 650px) {
@@ -2179,6 +2182,8 @@ template {
     grid-row: 2/3;
     justify-content: flex-start;
     flex-wrap: wrap;
+    margin-left: 0;
+    margin-top: 12px;
   }
   .footer__tittle--inline {
     margin: 0 0 20px 0;
@@ -2208,11 +2213,14 @@ template {
     grid-column: 1/2;
     grid-row: 8/9;
   }
+  .footer__icon-wrapper {
+    margin-right: 7px;
+  }
   .footer__text {
     margin-bottom: 20px;
   }
   .footer__item--mb-2 {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
   }
   .footer__input {
     flex-basis: 100%;
@@ -2226,7 +2234,7 @@ template {
     margin: 0 0 10px 0;
   }
   .footer__message {
-    margin-bottom: 15p;
+    margin-bottom: 15px;
   }
   .footer__button {
     order: 1;
