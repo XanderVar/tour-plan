@@ -1,4 +1,4 @@
-const hotelSlider = new Swiper('.hotel-slider', {
+const hotelSlider = new Swiper(".hotel-slider", {
   // Optional parameters
   loop: true,
   // Navigation arrows
@@ -10,9 +10,9 @@ const hotelSlider = new Swiper('.hotel-slider', {
     enabled: true,
     onlyInViewport: false,
   },
-  keypress (Swiper, keyCode) {},
+  keypress(Swiper, keyCode) {},
 });
-const reviewsSlider = new Swiper('.reviews-slider', {
+const reviewsSlider = new Swiper(".reviews-slider", {
   // Optional parameters
   loop: true,
   // Navigation arrows
@@ -24,7 +24,7 @@ const reviewsSlider = new Swiper('.reviews-slider', {
     enabled: true,
     onlyInViewport: false,
   },
-  keypress (Swiper, keyCode) {},
+  keypress(Swiper, keyCode) {},
 });
 //  ymaps.ready(init);
 //     function init(){
@@ -41,4 +41,14 @@ const reviewsSlider = new Swiper('.reviews-slider', {
 //         });
 //     }
 
-$('.newsletter').parallax({imageSrc: './img/newsletter-bg.jpeg', androinFix: false, iosFix: false});
+$(".newsletter").parallax({
+  imageSrc: "./img/newsletter-bg.jpeg",
+  androinFix: false,
+  iosFix: false,
+});
+
+var menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", function () {
+  console.log("Клик по кнопке");
+  document.querySelector('.navbar-buttom').classList.toggle('navbar-buttom--visible');
+});
