@@ -1850,6 +1850,12 @@ template {
   .footer__social-network {
     margin-left: -10px;
   }
+  .footer__infoBlock {
+    justify-content: space-between;
+  }
+  .footer__ul--infoBlock {
+    margin-right: 0;
+  }
 }
 @media (max-width: 650px) {
   .container {
