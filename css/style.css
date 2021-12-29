@@ -1743,7 +1743,7 @@ template {
     padding: 73px 0 33px 0;
   }
   .footer-wrapper {
-    grid-template-columns: 10% 10% 15% 15% 12% 12%;
+    grid-template-columns: 10% 10% 15.5% 15.5% 12% 12%;
     grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content;
     grid-column-gap: 5%;
@@ -1855,6 +1855,9 @@ template {
   }
   .footer__ul--infoBlock {
     margin-right: 0;
+  }
+  .footer__item--mb-2 {
+    margin-bottom: 0;
   }
 }
 @media (max-width: 650px) {
@@ -2242,6 +2245,7 @@ template {
   }
   .footer__logo {
     grid-column: 1/2;
+    margin-bottom: 0;
   }
   .footer__social-network {
     grid-column: 1/2;
@@ -2249,7 +2253,7 @@ template {
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-left: 0;
-    margin-top: 12px;
+    margin-top: 0;
   }
   .footer__tittle--inline {
     margin: 0 0 20px 0;
@@ -2259,7 +2263,7 @@ template {
     margin-bottom: 15px;
   }
   .footer__tittle--contact {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
   .footer__additional {
     grid-column: 1/2;
@@ -2286,7 +2290,7 @@ template {
     margin-right: 7px;
   }
   .footer__text {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .footer__item--mb-2 {
     margin-bottom: 25px;
@@ -2311,5 +2315,8 @@ template {
   .footer__info {
     flex-basis: 100%;
     margin-bottom: 15px;
+  }
+  .footer__link--mail {
+    line-height: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
