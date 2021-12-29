@@ -332,6 +332,11 @@
       &__card
         padding-right: 20px
         padding-left: 20px
+  .modal
+    &__dialog
+      top: 0
+      left: 50%
+      transform: translate(-50%,0)
 @media (max-width: 576px)
   .hotel
     &-grid
@@ -547,3 +552,10 @@
     &__link
       &--mail
         line-height: 14px
+  .modal
+    &__dialog
+      width: 100%
+      padding: 33px 50px
+    &__button
+      min-width: 0
+      flex-basis: 47%
