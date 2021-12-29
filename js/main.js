@@ -1,4 +1,5 @@
-const hotelSlider = new Swiper(".hotel-slider", {
+$(document).ready(function() {
+  const hotelSlider = new Swiper(".hotel-slider", {
   // Optional parameters
   loop: true,
   // Navigation arrows
@@ -47,8 +48,54 @@ $(".newsletter").parallax({
   iosFix: false,
 });
 
-var menuButton = document.querySelector(".menu-button");
-menuButton.addEventListener("click", function () {
-  console.log("Клик по кнопке");
-  document.querySelector('.navbar-buttom').classList.toggle('navbar-buttom--visible');
+var menuButton = $(".menu-button");
+menuButton.on("click", function () {
+  $('.navbar-buttom').toggleClass('navbar-buttom--visible');
 });
+
+
+var modalButton = $("[data-toggle=modal]");
+var closeModalButton = $(".modal__close") 
+modalButton.on('click', openModal);
+closeModalButton.on('click', closeModal);
+
+$(this).keyup(function(event) {
+   var key = event.keyCode;
+  if (key == 27) {
+     var modalOverlay = $(".modal__overlay");
+    var modalDialog = $(".modal__dialog");
+     modalOverlay.removeClass('modal__overlay--visible');
+  modalDialog.removeClass('modal__dialog--visible');
+   }
+else {return  false;};
+   });
+
+   
+
+function openModal() {
+  var targetModal = $(this).attr("data-href");
+  $(targetModal).find('.modal__overlay').addClass("modal__overlay--visible");
+  $(targetModal).find('.modal__dialog').addClass("modal__dialog--visible");
+
+}
+
+function closeModal(event){
+  event.preventDefault();
+  var modalOverlay = $(".modal__overlay");
+  var modalDialog = $(".modal__dialog");
+  modalOverlay.removeClass('modal__overlay--visible');
+  modalDialog.removeClass('modal__dialog--visible');
+
+
+  
+};
+
+
+
+
+
+
+});
+
+
+
