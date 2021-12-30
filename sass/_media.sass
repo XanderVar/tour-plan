@@ -125,7 +125,7 @@
   .map
     flex-basis: 49%
   .booking
-    flex-basis: 49%
+    flex-basis: 48.7%
     padding: 29px 22px 26px 23px
   .reviews
     padding: 40px 0 60px
@@ -168,7 +168,7 @@
       &--infoBlock
         margin-right: 0
     &__item
-      &--mb-2
+      &--mb-2-0
         margin-bottom: 0
 @media (max-width: 650px)
   .container
@@ -209,6 +209,7 @@
       padding-bottom: 68px
       &--visible
         display: block
+        overflow-y: auto
     &-top
       padding-top: 26px
       padding-bottom: 26px
@@ -334,9 +335,8 @@
         padding-left: 20px
   .modal
     &__dialog
-      top: 0
-      left: 50%
-      transform: translate(-50%,0)
+      &--visible
+        man-width: 90%
 @media (max-width: 576px)
   .hotel
     &-grid
@@ -542,6 +542,7 @@
       &--infoBlock
         flex-basis: 100%
         margin: 0 0 10px 0
+        min-width: 280px
     &__message
       margin-bottom: 15px
     &__button
@@ -554,8 +555,9 @@
         line-height: 14px
   .modal
     &__dialog
-      width: 100%
-      padding: 33px 50px
+      &--visible
+        max-width: 90%
+        padding: 33px 50px
     &__button
       min-width: 0
       flex-basis: 47%

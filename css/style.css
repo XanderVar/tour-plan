@@ -679,6 +679,7 @@ template {
   font-weight: 800;
   font-size: 24px;
   line-height: 33px;
+  margin-bottom: -4px;
 }
 .booking__per-room {
   font-weight: normal;
@@ -859,6 +860,8 @@ template {
 }
 .grid-hotelBlueHaven__button {
   padding: 11px 27px 10px 26px;
+  min-height: 40px;
+  min-width: 119px;
   background-color: #EC1F46;
   border: none;
   border-radius: 4px;
@@ -951,6 +954,8 @@ template {
 }
 .grid-belleMare__button {
   padding: 11px 27px 10px 26px;
+  min-height: 40px;
+  min-width: 119px;
   background-color: #EC1F46;
   border: none;
   border-radius: 4px;
@@ -1043,6 +1048,8 @@ template {
 }
 .grid-whitePalace__button {
   padding: 11px 27px 10px 26px;
+  min-height: 40px;
+  min-width: 119px;
   background-color: #EC1F46;
   border: none;
   border-radius: 4px;
@@ -1135,6 +1142,8 @@ template {
 }
 .grid-luxuryPlace__button {
   padding: 11px 27px 10px 26px;
+  min-height: 40px;
+  min-width: 119px;
   background-color: #EC1F46;
   border: none;
   border-radius: 4px;
@@ -1227,6 +1236,8 @@ template {
 }
 .grid-hotelFiveStar__button {
   padding: 11px 27px 10px 26px;
+  min-height: 40px;
+  min-width: 119px;
   background-color: #EC1F46;
   border: none;
   border-radius: 4px;
@@ -1881,7 +1892,7 @@ template {
   }
 
   .booking {
-    flex-basis: 49%;
+    flex-basis: 48.7%;
     padding: 29px 22px 26px 23px;
   }
 
@@ -1936,7 +1947,7 @@ template {
   .footer__ul--infoBlock {
     margin-right: 0;
   }
-  .footer__item--mb-2 {
+  .footer__item--mb-2-0 {
     margin-bottom: 0;
   }
 }
@@ -1983,6 +1994,7 @@ template {
   }
   .navbar-buttom--visible {
     display: block;
+    overflow-y: auto;
   }
   .navbar-top {
     padding-top: 26px;
@@ -2138,10 +2150,8 @@ template {
     padding-left: 20px;
   }
 
-  .modal__dialog {
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
+  .modal__dialog--visible {
+    man-width: 90%;
   }
 }
 @media (max-width: 576px) {
@@ -2391,6 +2401,7 @@ template {
   .footer__ul--infoBlock {
     flex-basis: 100%;
     margin: 0 0 10px 0;
+    min-width: 280px;
   }
   .footer__message {
     margin-bottom: 15px;
@@ -2406,8 +2417,8 @@ template {
     line-height: 14px;
   }
 
-  .modal__dialog {
-    width: 100%;
+  .modal__dialog--visible {
+    max-width: 90%;
     padding: 33px 50px;
   }
   .modal__button {
