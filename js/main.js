@@ -90,12 +90,30 @@ function closeModal(event){
   
 };
 
+//обработка форм
+$(".form").each(function () {
+  $(this).validate({
+    errorClass: "invalid",
+    messages: {
+    name: {
+      required: "Please specify your name",
+      minlenth: "The name should not be shorter than 2 letters"
+    },
+    email: {
+      required: "We need your email address to contact you",
+      email: "Your email address must be in the format of name@domain.com"
+    },
+    phone: {
+      required: "Please leave your phone number",
+    },
+  },
+});
+});
 
-
+$('.input-phone').mask('+7 (999) 999-99-99', {placeholder: "+7 (999) 999-99-99"}, {'translation': {9: {pattern: /[0-9]/}}});
 
 
 
 });
-
 
 
