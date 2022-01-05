@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/aos.css" />
     <!-- <script
       async
       src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
@@ -98,7 +99,7 @@
     <header class="navbar navbar--mobile--fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="index.html" class="logo">
+          <a href="index.html" class="logo" data-aos="fade-right">
             <img
               src="img/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -109,6 +110,7 @@
           <form
             action="#"
             class="search navbar__search navbar__search--mobile--hidden form"
+            data-aos="zoom-in"
           >
             <div class="search-group">
               <input
@@ -124,7 +126,11 @@
             </div>
           </form>
 
-          <a href="#" class="user navbar__user navbar__user--mobile--hidden">
+          <a
+            href="#"
+            class="user navbar__user navbar__user--mobile--hidden"
+            data-aos="fade-left"
+          >
             <img
               src="img/user-avatar.jpeg"
               alt="Avatar: Nathan"
@@ -380,9 +386,13 @@
     <!-- /.hotel -->
     <section class="otherPackages">
       <div class="container">
-        <h2 class="otherPackages__tittle">Other Packages</h2>
+        <h2 class="otherPackages__tittle" data-aos="zoom-in">Other Packages</h2>
         <div class="otherPackages-grid">
-          <div class="grid grid-hotelBlueHaven">
+          <div
+            class="grid grid-hotelBlueHaven"
+            data-aos="fade-right"
+            data-aos-duration="200"
+          >
             <img
               src="img/otherPackages/photo-1.jpg"
               alt="photo-1"
@@ -438,7 +448,11 @@
             </div>
             <!-- .grid grid-hotelBlueHaven -->
           </div>
-          <div class="grid grid-belleMare">
+          <div
+            class="grid grid-belleMare"
+            data-aos="fade-right"
+            data-aos-duration="300"
+          >
             <img
               src="img/otherPackages/photo-2.jpg"
               alt="photo-2"
@@ -474,7 +488,11 @@
               </div>
             </div>
           </div>
-          <div class="grid grid-whitePalace">
+          <div
+            class="grid grid-whitePalace"
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
             <img
               src="img/otherPackages/photo-3.jpg"
               alt="photo-3"
@@ -512,7 +530,11 @@
               </div>
             </div>
           </div>
-          <div class="grid grid-luxuryPlace">
+          <div
+            class="grid grid-luxuryPlace"
+            data-aos="fade-right"
+            data-aos-duration="500"
+          >
             <img
               src="img/otherPackages/photo-4.jpg"
               alt="photo-4"
@@ -550,7 +572,11 @@
               </div>
             </div>
           </div>
-          <div class="grid grid-hotelFiveStar">
+          <div
+            class="grid grid-hotelFiveStar"
+            data-aos="fade-right"
+            data-aos-duration="600"
+          >
             <img
               src="img/otherPackages/photo-5.jpg"
               alt="photo-5"
@@ -627,7 +653,9 @@
     <!-- /.newsletter -->
     <section class="reviews">
       <div class="container">
-        <h2 class="reviews__tittle">What people think about us</h2>
+        <h2 class="reviews__tittle" data-aos="fade-zoom-in">
+          What people think about us
+        </h2>
         <!-- /.reviews-tittle -->
         <div class="swiper reviews-slider">
           <div class="swiper-wrapper">
@@ -829,7 +857,11 @@
       <div class="container">
         <h2 class="activities__tittle">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-right"
+            data-aos-duration="200"
+          >
             <img
               src="img/activities-1.jpg"
               alt="The curious corner of chamarel"
@@ -839,7 +871,11 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- .card activities__card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-right"
+            data-aos-duration="400"
+          >
             <img
               src="img/activities-2.jpg"
               alt="Gymkhana club golf course"
@@ -852,7 +888,11 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- .card activities__card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-right"
+            data-aos-duration="600"
+          >
             <img
               src="img/activities-3.jpg"
               alt="Tamarind falls hiking trip - full day"
@@ -864,7 +904,11 @@
             <button class="card__button">Book Now</button>
           </div>
           <!-- .card activities__card -->
-          <div class="card activities__card">
+          <div
+            class="card activities__card"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
             <img
               src="img/activities-4.jpg"
               alt="The blue marine discovery quest"
@@ -1211,6 +1255,7 @@
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
