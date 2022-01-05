@@ -159,19 +159,11 @@
               </a>
             </li>
             <li
-              class="
-                navbar-menu__items
-                navbar-menu__items--mobile--visible
-                navbar-menu__items--mobile--visible--mb4
-              "
+              class="navbar-menu__items navbar-menu__items--mobile--visible navbar-menu__items--mobile--visible--mb4"
             >
               <form
                 action="#"
-                class="
-                  search
-                  navbar__search navbar__search--mobile--visible
-                  form
-                "
+                class="search navbar__search navbar__search--mobile--visible form"
               >
                 <input
                   type="text"
@@ -1074,6 +1066,8 @@
                   placeholder="Phone Number*"
                   name="phone"
                   required
+                  minlength="18"
+                  pattern="[0-9]{10}"
                 />
               </div>
               <textarea
@@ -1141,6 +1135,8 @@
             placeholder="Phone Number*"
             name="phone"
             required
+            minlength="18"
+            pattern="[0-9]{10}"
           /><input
             type="email"
             class="input modal__input"
@@ -1184,6 +1180,8 @@
             placeholder="Phone Number*"
             name="phone"
             required
+            minlength="18"
+            pattern="[0-9]{10}"
           />
           <input
             type="email"
