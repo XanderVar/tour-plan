@@ -34,7 +34,7 @@ img {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  color: black;
 }
 
 .message {
@@ -47,7 +47,7 @@ img {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #BDBDBD;
+  color: black;
   resize: none;
 }
 
@@ -491,7 +491,6 @@ template {
   border-radius: 6px;
   font-size: 12px;
   line-height: 15px;
-  color: #333333;
 }
 .search__button {
   position: absolute;
