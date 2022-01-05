@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/aos.css" />
     <!-- <script
       async
       src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
@@ -98,7 +99,7 @@
     <header class="navbar navbar--mobile--fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="index.html" class="logo">
+          <a href="index.html" class="logo" data-aos="fade-right">
             <img
               src="img/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -109,11 +110,12 @@
           <form
             action="#"
             class="search navbar__search navbar__search--mobile--hidden form"
+            data-aos="zoom-in"
           >
             <div class="search-group">
               <input
                 type="text"
-                class="search__input"
+                class="input search__input"
                 placeholder="Search Location"
                 required
                 minlength="1"
@@ -124,7 +126,11 @@
             </div>
           </form>
 
-          <a href="#" class="user navbar__user navbar__user--mobile--hidden">
+          <a
+            href="#"
+            class="user navbar__user navbar__user--mobile--hidden"
+            data-aos="fade-left"
+          >
             <img
               src="img/user-avatar.jpeg"
               alt="Avatar: Nathan"
@@ -167,7 +173,7 @@
               >
                 <input
                   type="text"
-                  class="search__input search__input--mobile--visible"
+                  class="input search__input search__input--mobile--visible"
                   placeholder="Search Location"
                   required
                   minlength="1"
@@ -566,6 +572,7 @@
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
