@@ -27,23 +27,9 @@ const reviewsSlider = new Swiper(".reviews-slider", {
   },
   keypress(Swiper, keyCode) {},
 });
-//  ymaps.ready(init);
-//     function init(){
-//         // Создание карты.
-//         var myMap = new ymaps.Map("map", {
-//             // Координаты центра карты.
-//             // Порядок по умолчанию: «широта, долгота».
-//             // Чтобы не определять координаты центра карты вручную,
-//             // воспользуйтесь инструментом Определение координат.
-//             center: [7.82984905, 98.29001943],
-//             // Уровень масштабирования. Допустимые значения:
-//             // от 0 (весь мир) до 19.
-//             zoom: 7
-//         });
-//     }
 
 $(".newsletter").parallax({
-  imageSrc: "./img/newsletter-bg.jpeg",
+  imageSrc: "./img/newsletter-bg.jpg",
   androinFix: false,
   iosFix: false,
 });
@@ -97,7 +83,7 @@ $(".form").each(function () {
     messages: {
     name: {
       required: "Please specify your name",
-      minlenth: "The name should not be shorter than 2 letters"
+      minlength: "The name should not be shorter than 2 letters"
     },
     email: {
       required: "We need your email address to contact you",
@@ -105,7 +91,7 @@ $(".form").each(function () {
     },
     phone: {
       required: "Please leave your phone number",
-      minlenth: "The phone number should be in the following form +7 (999) 999-99-99"
+      minlength: "The phone number should be in the following form +7 (999) 999-99-99"
     },
   },
 });
