@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="/css/aos.css" />
+    <link rel="stylesheet" href="css/aos.css" />
 
     <link
       rel="apple-touch-icon"
@@ -246,7 +246,10 @@
       <div class="container">
         <div class="footer-wrapper">
           <a href="index.html" class="logo footer__logo"
-            ><img src="img/footer/Vertical-logo.svg" alt="Best Tour Plan"
+            ><img
+              src="img/footer/Vertical-logo.svg"
+              alt="Best Tour Plan"
+              class="footer__logoImg"
           /></a>
           <div class="footer__list footer__categories">
             <h3 class="footer__tittle">ALL CATEGORIES</h3>
@@ -328,17 +331,26 @@
                 href="https://www.facebook.com/"
                 class="footer__link"
                 target="_blank"
-                ><img src="img/footer/fb.svg" alt="icon: facebook" /></a
+                ><img
+                  src="img/footer/fb.svg"
+                  alt="icon: facebook"
+                  class="footer__linkSocial" /></a
               ><a
                 href="https://www.youtube.com/"
                 class="footer__link"
                 target="_blank"
-                ><img src="img/footer/yt.svg" alt="icon: youtube" /></a
+                ><img
+                  src="img/footer/yt.svg"
+                  alt="icon: youtube"
+                  class="footer__linkSocial" /></a
               ><a
                 href="https://www.instagram.com/"
                 class="footer__link"
                 target="_blank"
-                ><img src="img/footer/inst.svg" alt="icon: instagram"
+                ><img
+                  src="img/footer/inst.svg"
+                  alt="icon: instagram"
+                  class="footer__linkSocial"
               /></a>
             </div>
             <!-- /.footer__social-links -->
@@ -428,6 +440,8 @@
                   placeholder="Phone Number*"
                   name="phone"
                   required
+                  minlength="18"
+                  pattern="[0-9]{10}"
                 />
               </div>
               <textarea

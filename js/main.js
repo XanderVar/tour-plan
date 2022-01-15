@@ -11,7 +11,7 @@ $(document).ready(function() {
     enabled: true,
     onlyInViewport: false,
   },
-  keypress(Swiper, keyCode) {},
+  
 });
 const reviewsSlider = new Swiper(".reviews-slider", {
   // Optional parameters
@@ -25,7 +25,7 @@ const reviewsSlider = new Swiper(".reviews-slider", {
     enabled: true,
     onlyInViewport: false,
   },
-  keypress(Swiper, keyCode) {},
+  
 });
 
 $(".newsletter").parallax({
